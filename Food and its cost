@@ -1,0 +1,61 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,qty,rate,total;
+printf("1.Pizza\n2.Burger\n3.Pasta\n4.French fries\n5.Sandwich");
+printf("\n\n Pick an item:");
+scanf("%d",&a);
+switch(a)
+{
+case 1:
+    printf("\n you picked Pizza");
+    scan("%d",&a);
+    printf("\n Enter the quantity:");
+    scanf("%d",&qty);
+    rate=200;
+    total=qty*rate;
+    printf("\n Total amount:%d",total);
+    break;
+ case 2:
+    printf("\n you picked Burger");
+    scanf("%d",&a);
+    printf("\n Enter the quantity:");
+    scanf("%d",&qty);
+    rate=150;
+    total=qty*rate;
+    printf("\n Total amount:%d",total);
+    break;
+case 3:
+    printf("\n you picked Pasta");
+    scanf("%d",&a);
+    printf("\n Enter the quantity:");
+    scanf("%d",&qty);
+    rate=170;
+    total=qty*rate;
+    printf("\n Total amount:%d",total);
+    break;
+case 4:
+    printf("\n you picked French fries");
+    scanf("%d",&a);
+    printf("\n Enter the quantity:");
+    scanf("%d",&qty);
+    rate=70;
+    total=qty*rate;
+    printf("\n Total amount:%d",total);
+    break;
+case 5:
+    printf("\n you picked sandwich");
+    scanf("%d",&a);
+    printf("\n Enter the quantity:");
+    scanf("%d",&qty);
+    rate=120;
+    total=qty*rate;
+    printf("\n Total amount:%d",total);
+    break;
+Default:
+    printf("\n Saying so");
+    }
+    getch();
+    }
+    
